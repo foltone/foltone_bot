@@ -1,7 +1,7 @@
 # foltone_bot
 
 Voici un bot discord qui a été pensé pour les discord de serveur fivem.
-CE N'EST PAS UNE RESSOURCE A METTRE SUR VOTRE SERVEUR
+<br />CE N'EST PAS UNE RESSOURCE A METTRE SUR VOTRE SERVEUR
 
 ## Requirement
 Node.js 16.6.0
