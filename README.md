@@ -7,6 +7,8 @@ Voici un bot discord qui a été pensé pour les discord de serveur fivem.
 Node.js 16.6.0
 
 ## Instalation
+__TUTO INSTALATION :__ https://youtu.be/DWYVivLR5Y0
+
 1- Installez : Node.js 16.6.0
 
 2- Ouvrez foltone_bot dans vs code
