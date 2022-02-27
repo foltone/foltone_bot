@@ -22,3 +22,6 @@ __TUTO INSTALATION :__ https://youtu.be/DWYVivLR5Y0
 
 ## Vidéo
 https://youtu.be/XQ5o2QbRWE8
+
+## Discord
+https://discord.com/invite/X9ReemrhKh
