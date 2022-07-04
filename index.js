@@ -1,3 +1,4 @@
+require('dotenv').config();
 const config = require('./config.json');
 const Discord = require("discord.js");
 const fivereborn = require('fivereborn-query');
@@ -58,4 +59,5 @@ client.on('guildMemberAdd', async member => {
     msg = msg.replace("[server_name]", `${member.guild.name}`)
     channel.send(msg)
 });
-client.login(config.token);
+
+client.login(process.env.TOKEN);

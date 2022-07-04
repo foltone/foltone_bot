@@ -9,7 +9,7 @@ Node.js 16.6.0
 ## Instalation
 __TUTO INSTALATION :__ https://youtu.be/DWYVivLR5Y0
 
-1- Installez : Node.js 16.6.0
+1- Installez : [Node.js 16.6.0](https://nodejs.org/en/)
 
 2- Ouvrez foltone_bot dans vs code
 
@@ -17,7 +17,9 @@ __TUTO INSTALATION :__ https://youtu.be/DWYVivLR5Y0
 
 4- Tapez `npm i`
 
-5- Démarrez le bot avec la commande : `node index.js`
+5- Rentrer les information dans `config.json` et `.env`
+
+6- Démarrez le bot avec la commande : `node index.js`
 
 
 ## Vidéo
