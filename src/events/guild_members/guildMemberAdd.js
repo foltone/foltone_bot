@@ -45,7 +45,7 @@ module.exports = {
 
     const attachment = new AttachmentBuilder(canvas.toBuffer(), { name: 'profile-image.png' });
 
-    const logChannel = client.channels.cache.get(config.channelMessageJoin);
+    const logChannel = client.channels.cache.get(config.channelIdJoinMessage);
     logChannel.send({ content: `Bienvenu sur ${member.guild.name}, ${member.user}!`, files: [attachment] });
   },
 };
