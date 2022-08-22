@@ -7,7 +7,7 @@ Voici un bot discord qui a été pensé pour les discord de serveur fivem.
 Node.js 16.6.0
 
 ## Instalation
-__TUTO INSTALATION :__ https://youtu.be/DWYVivLR5Y0
+__TUTO INSTALATION (vas etre changé):__ https://youtu.be/DWYVivLR5Y0
 
 1- Installez : [Node.js 16.6.0](https://nodejs.org/en/)
 
@@ -19,11 +19,11 @@ __TUTO INSTALATION :__ https://youtu.be/DWYVivLR5Y0
 
 5- Rentrer les information dans `config.json` et `.env`
 
-6- Démarrez le bot avec la commande : `node index.js`
+6- Démarrez le bot avec la commande : `node .`
 
 
 ## Vidéo
-https://youtu.be/XQ5o2QbRWE8
+https://youtu.be/bEadR2IkGYU
 
 ## Discord
 https://discord.com/invite/X9ReemrhKh

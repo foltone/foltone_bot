@@ -1,28 +1,6 @@
 {
-    "guild": "",
-    "prefix": "",
-    "bot_peut_mention": false,
-    "server_info": {
-        "nom": "",
-        "ip": "",
-        "port": "",
-        "slot": "",
-        "type": ""
-    },
-    "welcome": {
-        "welcome_message": "Salut 👋 [user_name] bienvenue sur **[server_name]**",
-        "welcome_channel": ""
-    },
-    "ban": {
-        "channellog": ""
-    },
-    "unban": {
-        "channellog": ""
-    },
-    "clear": {
-        "channellog": ""
-    },
-    "kick": {
-        "channellog": ""
-    }
+    "ownerId": "",
+    "guildId": "",
+    "channelMessageJoin": "",
+    "fivemServer": ""
 }
