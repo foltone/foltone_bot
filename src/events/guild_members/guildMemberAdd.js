@@ -43,7 +43,7 @@ module.exports = {
     avatar.src = Buffer.from(await body.arrayBuffer());
     context.drawImage(avatar, 65, canvas.height / 2 - 250, 500, 500);
 
-    const attachment = new AttachmentBuilder(canvas.toBuffer(), { name: 'profile-image.png' });
+    const attachment = new AttachmentBuilder(await canvas.encode('png'), { name: 'profile-image.png' });
 
     const logChannel = client.channels.cache.get(config.channelIdJoinMessage);
     logChannel.send({ content: `Bienvenu sur ${member.guild.name}, ${member.user}!`, files: [attachment] });

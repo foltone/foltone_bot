@@ -9,19 +9,19 @@ const Logger = require('./src/utils/Logger');
   require(`./src/utils/handlers/${handler}`)(client);
 });
 
-process.on('exit', (code) => {
-  Logger.client(`le bot s'est arrété avec le code : ${code}!`);
-});
+// process.on('exit', (code) => {
+//   Logger.client(`le bot s'est arrété avec le code : ${code}!`);
+// });
 
-process.on('uncaughtException', (err, origin) => {
-  Logger.error(`uncaughtException : ${err}!`);
-  console.error(`Origine : ${origin}`);
-});
+// process.on('uncaughtException', (err, origin) => {
+//   Logger.error(`uncaughtException : ${err}!`);
+//   console.error(`Origine : ${origin}`);
+// });
 
-process.on('unhandledRejection', (reason, promise) => {
-  Logger.warn(`unhandledRejection : ${reason}`);
-  console.log(promise);
-});
+// process.on('unhandledRejection', (reason, promise) => {
+//   Logger.warn(`unhandledRejection : ${reason}`);
+//   console.log(promise);
+// });
 
 process.on('warning', (...args) => Logger.warn(...args));
 
