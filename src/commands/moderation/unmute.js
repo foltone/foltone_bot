@@ -6,7 +6,7 @@ module.exports = {
     permissions: ['ModerateMembers'],
     ownerOnly: false,
     usage: 'unmute [@cible]',
-    exemples: ['unmute @user'],
+    examples: ['unmute @user'],
     description: 'Unmute un utilisateur!',
     options: [
         {

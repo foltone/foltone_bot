@@ -7,7 +7,7 @@ module.exports = {
     permissions: ['ModerateMembers'],
     ownerOnly: false,
     usage: 'mute [@cible] [temps] [raison]',
-    exemples: ['mute @user 2 minutes raison'],
+    examples: ['mute @user 2 minutes raison'],
     description: 'Mute un utilisateur pendant un temps avec une raison!',
     options: [
         {

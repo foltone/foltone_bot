@@ -8,7 +8,7 @@ module.exports = {
     permissions: ['SendMessages'],
     ownerOnly: false,
     usage: 'listplayer',
-    exemples: ['listplayer'],
+    examples: ['listplayer'],
     description: 'Afficher la liste des joueur.',
     async runInteration(client, interaction) {
         const server = await cfx.fetchServer(config.fivemServer);

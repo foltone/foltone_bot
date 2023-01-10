@@ -8,7 +8,7 @@ module.exports = {
     permissions: ['SendMessages'],
     ownerOnly: false,
     usage: 'ping',
-    exemples: ['ping'],
+    examples: ['ping'],
     description: 'Commande help!',
     options: [
         {
@@ -46,7 +46,7 @@ module.exports = {
                         .addFields([
                             {name: '► Permissions:', value: `${cmd.permissions.join(', ')}`, inline: true},
                             {name: '► Utilisation:', value: `/${cmd.usage}`, inline: true},
-                            {name: '► Exemples:', value: `/${cmd.exemples.join(` | /`)}`, inline: false}
+                            {name: '► Exemples:', value: `/${cmd.examples.join(` | /`)}`, inline: false}
                         ])
                         .addFields([
                             {

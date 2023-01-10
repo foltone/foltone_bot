@@ -20,7 +20,7 @@ module.exports = async (client) => {
 
         if (!cmd.usage) return Logger.warn(`Command non chargée, pas d'usage ↓\nFichier --> ${cmdFile}`);
 
-        if (!cmd.exemples) return Logger.warn(`Command non chargée, pas d'exemples ↓\nFichier --> ${cmdFile}`);
+        if (!cmd.examples) return Logger.warn(`Command non chargée, pas d'examples ↓\nFichier --> ${cmdFile}`);
 
         cmd.permissions.forEach((permission) => {
             if (!permissionList.includes(permission)) {

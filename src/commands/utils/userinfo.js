@@ -6,7 +6,7 @@ module.exports = {
     permissions: ['SendMessages'],
     ownerOnly: false,
     usage: 'ping',
-    exemples: ['ping'],
+    examples: ['ping'],
     description: 'Connaitre les information d\'un utilisateur',
     options: [
         {

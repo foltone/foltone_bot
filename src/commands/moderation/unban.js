@@ -6,7 +6,7 @@ module.exports = {
     permissions: ['BanMembers'],
     ownerOnly: false,
     usage: 'unban [@cible] [raison]',
-    exemples: ['unban @user raison'],
+    examples: ['unban @user raison'],
     description: 'unban un utilisateur avec une raison!',
     options: [
         {

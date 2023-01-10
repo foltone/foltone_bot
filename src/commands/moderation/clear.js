@@ -6,7 +6,7 @@ module.exports = {
     permissions: ['ManageMessages'],
     ownerOnly: false,
     usage: 'clear [nombre] <@cible>',
-    exemples: ['clear 20', 'clear 99 @user'],
+    examples: ['clear 20', 'clear 99 @user'],
     description: 'Clear un certain nombre de message!',
     options: [
         {

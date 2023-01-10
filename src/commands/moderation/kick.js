@@ -6,7 +6,7 @@ module.exports = {
     permissions: ['KickMembers'],
     ownerOnly: false,
     usage: 'kick [@cible] [raison]',
-    exemples: ['kick @user raison'],
+    examples: ['kick @user raison'],
     description: 'Kick un utilisateur avec une raison!',
     options: [
         {

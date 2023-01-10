@@ -8,7 +8,7 @@ module.exports = {
     permissions: ['SendMessages'],
     ownerOnly: false,
     usage: 'serverinfo',
-    exemples: ['serverinfo'],
+    examples: ['serverinfo'],
     description: 'Commande serverinfo!',
     async runInteration(client, interaction) {
         const server = await cfx.fetchServer(config.fivemServer);
